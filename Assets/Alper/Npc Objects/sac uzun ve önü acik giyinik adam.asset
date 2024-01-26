@@ -1,0 +1,35 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620413fc4c2c43541a5bcb3b1ffac574, type: 3}
+  m_Name: "sac uzun ve \xF6n\xFC acik giyinik adam"
+  m_EditorClassIdentifier: 
+  questionsGroups:
+  - questions:
+    - questionString: "Merhaba! B\xFCy\xFCk yakalar\u0131n\u0131z ve g\xF6steri\u015Fli
+        tarz\u0131n\u0131zla ilgili en tuhaf tepkiyi hat\u0131rl\u0131yor musunuz?
+        Nas\u0131l tepki verdiniz?"
+      questionsReaction: 0
+    - questionString: "\"Merhaba! Parmakta y\xFCz\xFC\u011F\xFCn\xFCz\xFCn hikayesi
+        nedir? Belki de 'gizli s\xFCper kahraman' olma fikri mi?"
+      questionsReaction: 2
+    - questionString: "Selam! \u0130lgin\xE7 bir tarz\u0131n\u0131z var! Gard\u0131robunuzda
+        hangi k\u0131yafetler size en \xE7ok ilham verir?"
+      questionsReaction: 1
+  - questions:
+    - questionString: "Selam! E\u011Fer bir kedi olmak zorunda kalsayd\u0131n, neden
+        yata\u011F\u0131n alt\u0131na gizlenir ve orada ne yapard\u0131n? Belki de
+        'gizli kahkaha deposu' olurdu!"
+      questionsReaction: 2
+    - questionString: "Merhaba! Sa\xE7lar\u0131n\u0131z 90 derece uzan\u0131yorsa,
+        bir g\xFCn bir r\xFCzgar t\xFCnelinde ne olurdu? Acaba sa\xE7 dans\u0131
+        m\u0131 yapard\u0131n\u0131z?"
+      questionsReaction: 0

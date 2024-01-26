@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620413fc4c2c43541a5bcb3b1ffac574, type: 3}
+  m_Name: "gri croplu sar\u0131 esofmanli kiz"
+  m_EditorClassIdentifier: 
+  questionsGroups:
+  - questions:
+    - questionString: "Merhaba! K\u0131rm\u0131z\u0131 g\xF6zl\xFCkler ve kulakl\u0131klar\u0131n\u0131z\u0131n
+        arkas\u0131nda saklad\u0131\u011F\u0131n\u0131z s\u0131r nedir? Yoksa sadece
+        gizemli bir havaya m\u0131 sahip olmak istiyorsunuz?"
+      questionsReaction: 0
+    - questionString: "Selam! Ni\xE7in matematik kitab\u0131 asla \xFCzg\xFCn de\u011Fildir?
+        \xC7\xFCnk\xFC hep problemi vard\u0131r ve onlar\u0131 \xE7\xF6zer!"
+      questionsReaction: 2
+    - questionString: "Selam! Bilgisayar\u0131n neden hasta olmaz? \xC7\xFCnk\xFC
+        'vir\xFCs program\u0131' var!"
+      questionsReaction: 1
+  - questions:
+    - questionString: "Selam! E\u011Fer bir kedi olmak zorunda kalsayd\u0131n, neden
+        yata\u011F\u0131n alt\u0131na gizlenir ve orada ne yapard\u0131n? Belki de
+        'gizli kahkaha deposu' olurdu!"
+      questionsReaction: 2
+    - questionString: "Merhaba! Sence bir oyuncak ay\u0131 neden asla yemek yemez?
+        \xC7\xFCnk\xFC hep tok dola\u015F\u0131r."
+      questionsReaction: 0
