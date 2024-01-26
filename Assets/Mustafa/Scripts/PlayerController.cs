@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using CubeEngine;
 using UnityEngine;
 
 public class PlayerController : MonoBehaviour
@@ -44,6 +45,14 @@ public Transform phoneObject;
 public Transform phoneRotTransform;
 public Transform phoneLostFocusTransform;
 public bool isTalking;
+
+public static PlayerController Init;
+
+private void Awake()
+{
+    Init = this;
+}
+
 private void Start()
 {
     rb = GetComponent<Rigidbody>();
@@ -153,6 +162,12 @@ public void OnFocusNpc(Transform targetTransform)
     if (Input.GetKeyDown(KeyCode.Return))
     {
         isTalking = true;
+        UI_Manager.Init.OpenQuestionsPanel(targetTransform.GetComponent<Npc>());
+        Cursor.lockState = CursorLockMode.None;
+    }
+    else
+    {
+        UI_Manager.Init.OpenInfoPanel(targetTransform.GetComponent<Npc>());
     }
 }
 
@@ -160,6 +175,18 @@ public void OnLostFocusNpc()
 {
     phoneRotTransform.LookAt(phoneLostFocusTransform);
     phoneObject.rotation=Quaternion.Lerp(phoneObject.rotation,phoneRotTransform.rotation,0.01f);
+    UI_Manager.Init.CloseInfoPanel();
+}
+
+public void MakeTheJoke(QuestionsReaction reaction)
+{
+    newNpc.GetComponent<Npc>().GetJoke(reaction);
+}
+
+public void TalkingIsEnd()
+{
+    isTalking = false;
+    Cursor.lockState = CursorLockMode.Locked;
 }
 
 }

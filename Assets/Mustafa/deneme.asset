@@ -12,4 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620413fc4c2c43541a5bcb3b1ffac574, type: 3}
   m_Name: deneme
   m_EditorClassIdentifier: 
-  questionsGroups: []
+  npcName: deneme
+  questionsGroups:
+  - questions:
+    - questionString: osman oyun oynuyor
+      questionsReaction: 0
+    - questionString: "\u015Feyma resim \xE7ekiyo"
+      questionsReaction: 1
+    - questionString: alper oynuyo
+      questionsReaction: 2
+  - questions:
+    - questionString: "muste sigara keyfisi yap\u0131yo"
+      questionsReaction: 1
+    - questionString: npc salak
+      questionsReaction: 2
