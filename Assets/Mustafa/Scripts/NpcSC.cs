@@ -7,6 +7,7 @@ using CubeEngine;
 [CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Scripts", order = 1)]
 public class NpcSC : ScriptableObject
 {
+    public string npcName;
     public QuestionsGroup[] questionsGroups;
     [Serializable]
     public class QuestionsGroup
