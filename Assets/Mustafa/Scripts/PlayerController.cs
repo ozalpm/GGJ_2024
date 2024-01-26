@@ -43,6 +43,7 @@ public float npcRange;
 public Transform phoneObject;
 public Transform phoneRotTransform;
 public Transform phoneLostFocusTransform;
+public bool isTalking;
 private void Start()
 {
     rb = GetComponent<Rigidbody>();
@@ -53,6 +54,9 @@ private void Start()
 
 private void Update()
 {
+    if (isTalking)
+    { return; }
+    
     // ground check
     grounded = Physics.Raycast(transform.position+Vector3.up, Vector3.down,playerHeight, whatIsGround);
     isLookingNpc=Physics.Raycast(mainCam.transform.position, mainCam.transform.forward,out npcHit,npcRange, npcLayerMask);
@@ -60,11 +64,18 @@ private void Update()
     if (isLookingNpc)
     {
         newNpc = npcHit.transform;
+        if (oldNpc!=newNpc)
+        {
+            oldNpc = newNpc;
+        }
         OnFocusNpc(newNpc);
     }
     else
     {
-        OnLostFocusNpc();
+        if (!isTalking)
+        {
+            OnLostFocusNpc();
+        }
     }
     MyInput();
     SpeedControl();
@@ -139,6 +150,10 @@ public void OnFocusNpc(Transform targetTransform)
 {
     phoneRotTransform.LookAt(targetTransform);
     phoneObject.rotation=Quaternion.Lerp(phoneObject.rotation,phoneRotTransform.rotation,0.01f);
+    if (Input.GetKeyDown(KeyCode.Return))
+    {
+        isTalking = true;
+    }
 }
 
 public void OnLostFocusNpc()
