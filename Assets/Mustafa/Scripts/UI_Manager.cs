@@ -72,6 +72,7 @@ public class UI_Manager : MonoBehaviour
 
     public void MakeAJoke(QuestionsReaction reaction)
     {
+        CloseQuestionsPanel();
         PlayerController.Init.MakeTheJoke(reaction);
     }
 }

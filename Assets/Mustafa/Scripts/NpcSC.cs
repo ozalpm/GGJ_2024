@@ -8,6 +8,7 @@ using CubeEngine;
 public class NpcSC : ScriptableObject
 {
     public string npcName;
+    public AudioClip[] reactionClips;
     public QuestionsGroup[] questionsGroups;
     [Serializable]
     public class QuestionsGroup

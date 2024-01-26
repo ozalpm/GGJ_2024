@@ -181,6 +181,7 @@ public void OnLostFocusNpc()
 public void MakeTheJoke(QuestionsReaction reaction)
 {
     newNpc.GetComponent<Npc>().GetJoke(reaction);
+    Cursor.lockState = CursorLockMode.Locked;
 }
 
 public void TalkingIsEnd()

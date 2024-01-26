@@ -6,20 +6,26 @@ using UnityEngine;
 public class Npc : MonoBehaviour
 {
     public NpcSC data;
-
+    public AudioSource source;
     
     public void GetJoke(QuestionsReaction reaction)
     {
         switch (reaction)
         {
             case QuestionsReaction.Bad:
-                BreakTheTalk();
+                Invoke(nameof(BreakTheTalk),data.reactionClips[0].length);
+                source.clip = data.reactionClips[0];
+                source.Play();
                 break;
             case QuestionsReaction.Normal:
-                BreakTheTalk();
+                Invoke(nameof(BreakTheTalk),data.reactionClips[1].length);
+                source.clip = data.reactionClips[1];
+                source.Play();
                 break;
             case QuestionsReaction.Good:
-                BreakTheTalk();
+                Invoke(nameof(BreakTheTalk),data.reactionClips[2].length);
+                source.clip = data.reactionClips[2];
+                source.Play();
                 break;
             default:
                 break;
