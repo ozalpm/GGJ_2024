@@ -19,9 +19,9 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bcb5ed2e64821fb4fb7a3c88677897d8, type: 3}
   questionsGroups:
   - questions:
-    - questionString: osman oyun oynuyor
+    - questionString: "\u015Feyma anca tiktok izlesin"
       questionsReaction: 0
-    - questionString: "\u015Feyma resim \xE7ekiyo"
+    - questionString: "\u015Feyma "
       questionsReaction: 1
     - questionString: alper oynuyo
       questionsReaction: 2

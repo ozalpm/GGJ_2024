@@ -164,6 +164,7 @@ public void OnFocusNpc(Transform targetTransform)
         isTalking = true;
         UI_Manager.Init.OpenQuestionsPanel(targetTransform.GetComponent<Npc>());
         Cursor.lockState = CursorLockMode.None;
+        Phone.Init.RecordStart();
     }
     else
     {
@@ -182,6 +183,7 @@ public void MakeTheJoke(QuestionsReaction reaction)
 {
     newNpc.GetComponent<Npc>().GetJoke(reaction);
     Cursor.lockState = CursorLockMode.Locked;
+    Phone.Init.RecordEnd();
 }
 
 public void TalkingIsEnd()
