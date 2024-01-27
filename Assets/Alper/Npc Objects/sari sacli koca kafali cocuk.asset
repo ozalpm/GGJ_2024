@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620413fc4c2c43541a5bcb3b1ffac574, type: 3}
   m_Name: sari sacli koca kafali cocuk
   m_EditorClassIdentifier: 
-  npcName: 
+  npcName: ty
   reactionClips:
   - {fileID: 8300000, guid: 42af355027d087048bb676dca11d2902, type: 3}
   - {fileID: 8300000, guid: a3b3a2981b6367e41ba8751970bce90a, type: 3}

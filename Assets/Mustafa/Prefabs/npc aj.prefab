@@ -135,12 +135,16 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4034070074705087067, guid: a3fe8df097bd8da499c62923916ffe4c, type: 3}
+      propertyPath: data
+      value: 
+      objectReference: {fileID: 11400000, guid: aaadfd92a37c64b48abbfb4875951dda, type: 2}
+    - target: {fileID: 4034070074705087067, guid: a3fe8df097bd8da499c62923916ffe4c, type: 3}
       propertyPath: animator
       value: 
       objectReference: {fileID: 2510316105249723054}
     - target: {fileID: 4034070074705087070, guid: a3fe8df097bd8da499c62923916ffe4c, type: 3}
       propertyPath: m_Name
-      value: npc claire 1
+      value: npc aj
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a3fe8df097bd8da499c62923916ffe4c, type: 3}
