@@ -22,11 +22,11 @@ MonoBehaviour:
     - questionString: "K\xFCt sa\xE7lar\u0131nla sanki asi bir isyankars\u0131n.
         Ama ger\xE7ekten de isyan etmeye de\u011Fecek bir nedenin var m\u0131?"
       questionsReaction: 0
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 92019ba7d4ffb3a4ba2363472da59d42, type: 3}
     - questionString: "Hangi \xFClkeleri gezdiniz?"
       questionsReaction: 1
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 2d039f3d00fd0fe41845f8eef2012b38, type: 3}
     - questionString: "Hey! Senin g\xF6zl\xFCklerini ben takarsam senin zekana kavu\u015Fur
         muyum?"
       questionsReaction: 2
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: a32fed8487c8f074da438206bc49fb8f, type: 3}

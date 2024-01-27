@@ -22,24 +22,24 @@ MonoBehaviour:
     - questionString: "Merhaba, yeni mi uyand\u0131n\u0131z? Yataktan f\u0131rlam\u0131\u015F
         gibi bir haliniz var!"
       questionsReaction: 0
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 2a71753f56f4070489c01b0a29cd70d2, type: 3}
     - questionString: "Merhaba! E\u011Fer antren\xF6rl\xFCk yapmak yerine ba\u015Fka
         bir meslek se\xE7seydiniz, hangisini se\xE7erdiniz? Belki 'kahkaha ko\xE7lu\u011Fu'
         yapard\u0131n\u0131z?"
       questionsReaction: 2
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 4108ee8fd58913b40948b1df50479ce5, type: 3}
     - questionString: "Selam! En sevdi\u011Fin m\xFCzik t\xFCr\xFC nedir? Bir \u015Fark\u0131y\u0131
         yinelerken seni en \xE7ok g\xFCld\xFCren hangisi?"
       questionsReaction: 1
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: f1d13c3cfa3534b418ee71a6c1712a38, type: 3}
   - questions:
     - questionString: "Merhaba! E\u011Fer bir hayvan olmak zorunda kalsayd\u0131n,
         hangi hayvan\u0131 se\xE7erdin ve neden? Di\u011Fer hayvanlarla rekabet seni
         nas\u0131l etkilerdi?"
       questionsReaction: 0
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 4d454987699163746855d56004de8e03, type: 3}
     - questionString: "Selam! E\u011Fer d\xFCd\xFC\u011F\xFCn\xFCz bir sihirli de\u011Fnek
         olsayd\u0131, hangi spor dal\u0131nda d\xFCd\xFC\u011F\xFC \xE7alard\u0131n\u0131z?
         Belki 'g\xFClme maratonunda'?"
       questionsReaction: 2
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: d36f544a5c50d124bbb139150f518b22, type: 3}
