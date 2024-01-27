@@ -19,6 +19,10 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bcb5ed2e64821fb4fb7a3c88677897d8, type: 3}
   questionsGroups:
   - questions:
+    - questionString: "Selam! Bilgisayar\u0131n neden hasta olmaz? \xC7\xFCnk\xFC
+        'vir\xFCs program\u0131' var!"
+      questionsReaction: 1
+      clip: {fileID: 8300000, guid: cf33734dd943f7649a1d778055c1bb02, type: 3}
     - questionString: "Merhaba! K\u0131rm\u0131z\u0131 g\xF6zl\xFCkler ve kulakl\u0131klar\u0131n\u0131z\u0131n
         arkas\u0131nda saklad\u0131\u011F\u0131n\u0131z s\u0131r nedir? Yoksa sadece
         gizemli bir havaya m\u0131 sahip olmak istiyorsunuz?"
@@ -28,17 +32,13 @@ MonoBehaviour:
         \xC7\xFCnk\xFC hep problemi vard\u0131r ve onlar\u0131 \xE7\xF6zer!"
       questionsReaction: 2
       clip: {fileID: 8300000, guid: 544c1104865fefd4682d86b5d4022836, type: 3}
-    - questionString: "Selam! Bilgisayar\u0131n neden hasta olmaz? \xC7\xFCnk\xFC
-        'vir\xFCs program\u0131' var!"
-      questionsReaction: 1
-      clip: {fileID: 8300000, guid: cf33734dd943f7649a1d778055c1bb02, type: 3}
   - questions:
+    - questionString: "Merhaba! Sence bir oyuncak ay\u0131 neden asla yemek yemez?
+        \xC7\xFCnk\xFC hep tok dola\u015F\u0131r."
+      questionsReaction: 0
+      clip: {fileID: 8300000, guid: 82c0249a9002e2c4dbb2e0cc32f15854, type: 3}
     - questionString: "Selam! E\u011Fer bir kedi olmak zorunda kalsayd\u0131n, neden
         yata\u011F\u0131n alt\u0131na gizlenir ve orada ne yapard\u0131n? Belki de
         'gizli kahkaha deposu' olurdu!"
       questionsReaction: 2
       clip: {fileID: 8300000, guid: 80c0785986df5a74aae6bbd87d9e2f2e, type: 3}
-    - questionString: "Merhaba! Sence bir oyuncak ay\u0131 neden asla yemek yemez?
-        \xC7\xFCnk\xFC hep tok dola\u015F\u0131r."
-      questionsReaction: 0
-      clip: {fileID: 8300000, guid: 82c0249a9002e2c4dbb2e0cc32f15854, type: 3}

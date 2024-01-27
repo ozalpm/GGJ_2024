@@ -23,10 +23,10 @@ MonoBehaviour:
         Ama ger\xE7ekten de isyan etmeye de\u011Fecek bir nedenin var m\u0131?"
       questionsReaction: 0
       clip: {fileID: 0}
+    - questionString: "Hangi \xFClkeleri gezdiniz?"
+      questionsReaction: 1
+      clip: {fileID: 0}
     - questionString: "Hey! Senin g\xF6zl\xFCklerini ben takarsam senin zekana kavu\u015Fur
         muyum?"
       questionsReaction: 2
-      clip: {fileID: 0}
-    - questionString: "Hangi \xFClkeleri gezdiniz?"
-      questionsReaction: 1
       clip: {fileID: 0}
