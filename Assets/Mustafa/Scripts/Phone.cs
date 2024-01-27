@@ -6,9 +6,9 @@ using UnityEngine;
 public class Phone : MonoBehaviour
 {
     public static Phone Init;
-    public GameObject recordingAnimObject;
+    public GameObject redCircle;
     public RecordTimer recordTimer;
-    public GameObject whitePoint;
+    public GameObject whiteCircle;
     
     private void Awake()
     {
@@ -17,16 +17,18 @@ public class Phone : MonoBehaviour
     
     public void RecordStart()
     {
-        recordingAnimObject.SetActive(true);
-        whitePoint.SetActive(false);
+        redCircle.SetActive(true);
+        whiteCircle.SetActive(false);
+        recordTimer.text.gameObject.SetActive(true);
         recordTimer.TimeReset();
         recordTimer.TimeUp();
     }
 
     public void RecordEnd()
     {
-        recordingAnimObject.SetActive(false);
-        whitePoint.SetActive(true);
+        redCircle.SetActive(false);
+        whiteCircle.SetActive(true);
+        recordTimer.text.gameObject.SetActive(false);
     }
 
 }
