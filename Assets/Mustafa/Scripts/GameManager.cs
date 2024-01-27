@@ -8,6 +8,7 @@ public class GameManager : MonoBehaviour
     public static GameManager Init;
 
     private float m_popularity;
+    public AudioSource source;
     public float popularity
     {
         set

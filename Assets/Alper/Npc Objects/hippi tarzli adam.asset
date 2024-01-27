@@ -13,22 +13,31 @@ MonoBehaviour:
   m_Name: hippi tarzli adam
   m_EditorClassIdentifier: 
   npcName: 
+  reactionClips:
+  - {fileID: 8300000, guid: 42af355027d087048bb676dca11d2902, type: 3}
+  - {fileID: 8300000, guid: a3b3a2981b6367e41ba8751970bce90a, type: 3}
+  - {fileID: 8300000, guid: bcb5ed2e64821fb4fb7a3c88677897d8, type: 3}
   questionsGroups:
   - questions:
     - questionString: "Turuncu \xE7izgili ti\u015F\xF6rt\xFCnle kendine belli bir
         tarz yaratm\u0131\u015Fs\u0131n ama korsanl\u0131k i\xE7in biraz daha sert
         olmal\u0131s\u0131n, de\u011Fil mi?"
       questionsReaction: 0
+      clip: {fileID: 8300000, guid: 02339275a80b72c4c87e191e6c6f2bf9, type: 3}
     - questionString: "Hippi korsan! Karayip denizlerinde mi kaybolmaya m\u0131 \xE7al\u0131\u015F\u0131yorsun?
         Yoksa Sahildeki Daltonlar'\u0131 aramak i\xE7in mi yola \xE7\u0131kt\u0131n?"
       questionsReaction: 2
+      clip: {fileID: 8300000, guid: e01dcce6a5bfbb84498f00f2d0b064f6, type: 3}
     - questionString: "Merhaba! tarz\u0131n hakk\u0131nda bizi bilgilendirir misin?"
       questionsReaction: 1
+      clip: {fileID: 8300000, guid: 9d626dd2fa529a9488a173424d5b3f72, type: 3}
   - questions:
     - questionString: "Hippi \xE7ocuk, ne zaman \u015Fark\u0131 s\xF6ylemek ister?
         Cevap: Bir akustik gitar \xE7\u0131kt\u0131\u011F\u0131nda!"
       questionsReaction: 2
+      clip: {fileID: 8300000, guid: fe29c737801a948498ad4cacd7554864, type: 3}
     - questionString: "K\xFC\xE7\xFCk deri \xE7antanla hazine aray\u0131\u015F\u0131na
         m\u0131 \xE7\u0131k\u0131yorsun? \u0130yi \u015Fanslar ama Daltonlar ve korsanlar
         aras\u0131nda kalm\u0131\u015F birini zor g\xFCnler bekliyor!"
       questionsReaction: 0
+      clip: {fileID: 8300000, guid: 4b259ecb356bb5e47ae7976705c3e7ef, type: 3}

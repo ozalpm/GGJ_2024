@@ -67,6 +67,7 @@ public class UI_Manager : MonoBehaviour
             Question_UI_Element element = Instantiate(questionUIElement, questionContent);
             element.reaction = var.questionsReaction;
             element.questionString = var.questionString;
+            element.clip = var.clip;
             
             element.Setup();
         }

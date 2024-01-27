@@ -13,23 +13,32 @@ MonoBehaviour:
   m_Name: "sac uzun ve \xF6n\xFC acik giyinik adam"
   m_EditorClassIdentifier: 
   npcName: 
+  reactionClips:
+  - {fileID: 8300000, guid: 42af355027d087048bb676dca11d2902, type: 3}
+  - {fileID: 8300000, guid: a3b3a2981b6367e41ba8751970bce90a, type: 3}
+  - {fileID: 8300000, guid: bcb5ed2e64821fb4fb7a3c88677897d8, type: 3}
   questionsGroups:
   - questions:
     - questionString: "Merhaba! B\xFCy\xFCk yakalar\u0131n\u0131z ve g\xF6steri\u015Fli
         tarz\u0131n\u0131zla ilgili en tuhaf tepkiyi hat\u0131rl\u0131yor musunuz?
         Nas\u0131l tepki verdiniz?"
       questionsReaction: 0
+      clip: {fileID: 0}
     - questionString: "\"Merhaba! Parmakta y\xFCz\xFC\u011F\xFCn\xFCz\xFCn hikayesi
         nedir? Belki de 'gizli s\xFCper kahraman' olma fikri mi?"
       questionsReaction: 2
+      clip: {fileID: 0}
     - questionString: "Selam! \u0130lgin\xE7 bir tarz\u0131n\u0131z var! Gard\u0131robunuzda
         hangi k\u0131yafetler size en \xE7ok ilham verir?"
       questionsReaction: 1
+      clip: {fileID: 0}
   - questions:
     - questionString: "Merhaba! Bu kasl\u0131 halinizi \xE7ok \xE7al\u0131\u015Fmaya
         m\u0131 bor\xE7lusunuz?"
       questionsReaction: 2
+      clip: {fileID: 0}
     - questionString: "Merhaba! Sa\xE7lar\u0131n\u0131z 90 derece uzan\u0131yorsa,
         bir g\xFCn bir r\xFCzgar t\xFCnelinde ne olurdu? Acaba sa\xE7 dans\u0131
         m\u0131 yapard\u0131n\u0131z?"
       questionsReaction: 0
+      clip: {fileID: 0}

@@ -11,7 +11,6 @@ public class Question_UI_Element : MonoBehaviour
     public QuestionsReaction reaction;
 
     public AudioClip clip;
-    public AudioSource source;
 
     public void Setup()
     {
@@ -21,7 +20,9 @@ public class Question_UI_Element : MonoBehaviour
     public void StartQuestion()
     {
         UI_Manager.Init.CloseQuestionsPanel();
-        Invoke(nameof(QuestionEnd),1f/*clip.length*/);
+        GameManager.Init.source.clip = clip;
+        GameManager.Init.source.Play();
+        Invoke(nameof(QuestionEnd),clip.length);
     }
 
     private void QuestionEnd()

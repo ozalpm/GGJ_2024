@@ -13,24 +13,33 @@ MonoBehaviour:
   m_Name: kirmizi elbiseli kadin
   m_EditorClassIdentifier: 
   npcName: 
+  reactionClips:
+  - {fileID: 8300000, guid: 42af355027d087048bb676dca11d2902, type: 3}
+  - {fileID: 8300000, guid: a3b3a2981b6367e41ba8751970bce90a, type: 3}
+  - {fileID: 8300000, guid: bcb5ed2e64821fb4fb7a3c88677897d8, type: 3}
   questionsGroups:
   - questions:
     - questionString: "At kuyru\u011Fu sa\xE7 stili ger\xE7ekten gen\xE7 bir hava
         kat\u0131yor, belki de bir g\xFCn o gen\xE7li\u011Finizi kullanarak maceralara
         at\u0131l\u0131rs\u0131n\u0131z!"
       questionsReaction: 0
+      clip: {fileID: 8300000, guid: bd195c27933ce11408d8f8a583ad5b33, type: 3}
     - questionString: "Ta\xE7 takmak sizi ger\xE7ek bir prensese d\xF6n\xFC\u015Ft\xFCrm\xFC\u015F
         gibi g\xF6r\xFCn\xFCyor! Saray maceralar\u0131n\u0131z\u0131 anlat\u0131r
         m\u0131s\u0131n\u0131z?"
       questionsReaction: 2
+      clip: {fileID: 8300000, guid: 680eec6fd8a6fca4ea587e1604a8e935, type: 3}
     - questionString: "Y\xFCz\xFC\u011F\xFCn\xFCz\xFCn hikayesini merak ediyorum,
         belki de \xF6zel bir anlam ta\u015F\u0131yor."
       questionsReaction: 1
+      clip: {fileID: 8300000, guid: 6fedb44d560c3c5418bb3f184f51472e, type: 3}
   - questions:
     - questionString: "Makyaj\u0131n\u0131z ger\xE7ekten b\xFCy\xFCleyici! Hangi
         sihirli f\u0131r\xE7alar\u0131 kullan\u0131yorsunuz? Bana da \xF6\u011Fretebilir
         misiniz?"
       questionsReaction: 2
+      clip: {fileID: 8300000, guid: eed719801836e9b49894a3e2d6bdeae5, type: 3}
     - questionString: "Bu d\xF6vmelerinizin hikayeleri var m\u0131, yoksa sadece
         bedeninizi s\xFCslemek mi istediniz?"
       questionsReaction: 0
+      clip: {fileID: 8300000, guid: 28544707cc805af4fb7e51e386cae89b, type: 3}

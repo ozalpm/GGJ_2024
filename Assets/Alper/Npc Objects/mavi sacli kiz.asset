@@ -12,25 +12,35 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 620413fc4c2c43541a5bcb3b1ffac574, type: 3}
   m_Name: mavi sacli kiz
   m_EditorClassIdentifier: 
+  npcName: 
+  reactionClips:
+  - {fileID: 8300000, guid: 42af355027d087048bb676dca11d2902, type: 3}
+  - {fileID: 8300000, guid: a3b3a2981b6367e41ba8751970bce90a, type: 3}
+  - {fileID: 8300000, guid: bcb5ed2e64821fb4fb7a3c88677897d8, type: 3}
   questionsGroups:
   - questions:
     - questionString: "Pembe ti\u015F\xF6rt! D\u0131\u015Far\u0131daki \xE7oraplarla
         bu kombinasyonunun ad\u0131 ne, modan\u0131n son s\xFCr\xFCm\xFC m\xFC yoksa
         kaza sonucu mu?"
       questionsReaction: 0
+      clip: {fileID: 0}
     - questionString: "Merhaba! Bir \u015Feker fabrikas\u0131 ile bir dondurma fabrikas\u0131
         kavga etmi\u015F. Nedenini tahmin edebilir misin? \xC7\xFCnk\xFC \u015Feker
         fabrikas\u0131, dondurma fabrikas\u0131na 'buz gibi espriler' yapm\u0131\u015F!"
       questionsReaction: 2
+      clip: {fileID: 0}
     - questionString: "Pembe \u015Fortlu k\u0131z! Sana g\xF6re en komik film hangisi?
         Belki benim de g\xFClmek i\xE7in bir film \xF6nerirsin."
       questionsReaction: 1
+      clip: {fileID: 0}
   - questions:
     - questionString: "Mavi sa\xE7l\u0131 k\u0131z, kahverengi ayakkab\u0131lar!
         Acaba mavi sa\xE7lar\u0131n rengini, kahverengi ayakkab\u0131lar\u0131n kalitesine
         mi bor\xE7lusun?"
       questionsReaction: 0
+      clip: {fileID: 0}
     - questionString: "Merhaba! Bir g\xFCn bir kitapla bir kalem parkta bulu\u015Fmu\u015F.
         Ne konu\u015Fmu\u015F olabilirler? Tabii ki, 'not'lar\u0131n\u0131 payla\u015Fm\u0131\u015F
         olabilirler mi?"
       questionsReaction: 2
+      clip: {fileID: 0}

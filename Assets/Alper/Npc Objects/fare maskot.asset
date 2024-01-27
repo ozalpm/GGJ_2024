@@ -13,22 +13,31 @@ MonoBehaviour:
   m_Name: fare maskot
   m_EditorClassIdentifier: 
   npcName: 
+  reactionClips:
+  - {fileID: 8300000, guid: 42af355027d087048bb676dca11d2902, type: 3}
+  - {fileID: 8300000, guid: a3b3a2981b6367e41ba8751970bce90a, type: 3}
+  - {fileID: 8300000, guid: bcb5ed2e64821fb4fb7a3c88677897d8, type: 3}
   questionsGroups:
   - questions:
     - questionString: "Bir fare kost\xFCm\xFCyle dola\u015Fmak, ger\xE7ekten 'soka\u011Fa
         \xE7\u0131k\u0131lacak bir hal' gibi g\xF6r\xFCn\xFCyor. Kendine bir daha
         bakmal\u0131s\u0131n!"
       questionsReaction: 0
+      clip: {fileID: 8300000, guid: 8501beb3339781c47a79b652963383f2, type: 3}
     - questionString: "Hey fare! Jerry'i tan\u0131yor musun?"
       questionsReaction: 2
+      clip: {fileID: 8300000, guid: a3d83c5e13c3d7542b1ad1500562b620, type: 3}
     - questionString: "Selam! Ye\u015Fil \u015Fortunuz ve fare kost\xFCm\xFCn\xFCz
         ger\xE7ekten dikkat \xE7ekici. Bu kost\xFCm\xFC giymenin arkas\u0131nda \xF6zel
         bir sebep var m\u0131?"
       questionsReaction: 1
+      clip: {fileID: 8300000, guid: c853cf5c347dbba4089a79c3aba4a39f, type: 3}
   - questions:
     - questionString: "Fare kafal\u0131 adam, sokaklarda dola\u015F\u0131rken peynir
         av\u0131na m\u0131 \xE7\u0131k\u0131yorsun?"
       questionsReaction: 2
+      clip: {fileID: 8300000, guid: e0df8e88394d3ab4bbdabaf85779f482, type: 3}
     - questionString: "Fare kafal\u0131 adam, peynir av\u0131 yapmak i\xE7in mi buradas\u0131n,
         yoksa sadece sokaklarda insanlar\u0131 korkutmak m\u0131 istiyorsun?"
       questionsReaction: 0
+      clip: {fileID: 8300000, guid: 9ac60acca40ee7348ad1cc88d960c25c, type: 3}
