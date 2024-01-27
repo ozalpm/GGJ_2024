@@ -19,27 +19,27 @@ MonoBehaviour:
   - {fileID: 8300000, guid: bcb5ed2e64821fb4fb7a3c88677897d8, type: 3}
   questionsGroups:
   - questions:
+    - questionString: "Merhaba, yeni mi uyand\u0131n\u0131z? Yataktan f\u0131rlam\u0131\u015F
+        gibi bir haliniz var!"
+      questionsReaction: 0
+      clip: {fileID: 0}
     - questionString: "Merhaba! E\u011Fer antren\xF6rl\xFCk yapmak yerine ba\u015Fka
         bir meslek se\xE7seydiniz, hangisini se\xE7erdiniz? Belki 'kahkaha ko\xE7lu\u011Fu'
         yapard\u0131n\u0131z?"
       questionsReaction: 2
-      clip: {fileID: 0}
-    - questionString: "Merhaba, yeni mi uyand\u0131n\u0131z? Yataktan f\u0131rlam\u0131\u015F
-        gibi bir haliniz var!"
-      questionsReaction: 0
       clip: {fileID: 0}
     - questionString: "Selam! En sevdi\u011Fin m\xFCzik t\xFCr\xFC nedir? Bir \u015Fark\u0131y\u0131
         yinelerken seni en \xE7ok g\xFCld\xFCren hangisi?"
       questionsReaction: 1
       clip: {fileID: 0}
   - questions:
-    - questionString: "Selam! E\u011Fer d\xFCd\xFC\u011F\xFCn\xFCz bir sihirli de\u011Fnek
-        olsayd\u0131, hangi spor dal\u0131nda d\xFCd\xFC\u011F\xFC \xE7alard\u0131n\u0131z?
-        Belki 'g\xFClme maratonunda'?"
-      questionsReaction: 2
-      clip: {fileID: 0}
     - questionString: "Merhaba! E\u011Fer bir hayvan olmak zorunda kalsayd\u0131n,
         hangi hayvan\u0131 se\xE7erdin ve neden? Di\u011Fer hayvanlarla rekabet seni
         nas\u0131l etkilerdi?"
       questionsReaction: 0
+      clip: {fileID: 0}
+    - questionString: "Selam! E\u011Fer d\xFCd\xFC\u011F\xFCn\xFCz bir sihirli de\u011Fnek
+        olsayd\u0131, hangi spor dal\u0131nda d\xFCd\xFC\u011F\xFC \xE7alard\u0131n\u0131z?
+        Belki 'g\xFClme maratonunda'?"
+      questionsReaction: 2
       clip: {fileID: 0}
