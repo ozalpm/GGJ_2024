@@ -10,6 +10,8 @@ public class Npc : MonoBehaviour
     public AudioSource source;
     public Animator animator;
 
+    public QuestionsReaction reactedReaction;
+
     public void StartTheTalk()
     {
         animator.SetTrigger("Start Talk");
@@ -19,6 +21,7 @@ public class Npc : MonoBehaviour
 
     public void GetJoke(QuestionsReaction reaction)
     {
+        reactedReaction = reaction;
         switch (reaction)
         {
             case QuestionsReaction.Bad:
@@ -51,7 +54,7 @@ public class Npc : MonoBehaviour
     {
         gameObject.layer = 0;
         PlayerController.Init.TalkingIsEnd();
-        Phone.Init.RecordEnd();
+        Phone.Init.RecordEnd(reactedReaction);
         animator.SetTrigger("End Talk");
     }
 
