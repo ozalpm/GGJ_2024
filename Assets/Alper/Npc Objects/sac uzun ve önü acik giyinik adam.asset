@@ -23,22 +23,22 @@ MonoBehaviour:
         tarz\u0131n\u0131zla ilgili en tuhaf tepkiyi hat\u0131rl\u0131yor musunuz?
         Nas\u0131l tepki verdiniz?"
       questionsReaction: 0
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: d21f26608c6f8bc4ab7f24e2f0058282, type: 3}
     - questionString: "Selam! \u0130lgin\xE7 bir tarz\u0131n\u0131z var! Gard\u0131robunuzda
         hangi k\u0131yafetler size en \xE7ok ilham verir?"
       questionsReaction: 1
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 9ab11102cd3214d4aa91c1ad928d90ad, type: 3}
     - questionString: "\"Merhaba! Parmakta y\xFCz\xFC\u011F\xFCn\xFCz\xFCn hikayesi
         nedir? Belki de 'gizli s\xFCper kahraman' olma fikri mi?"
       questionsReaction: 2
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: cc983ea6abe257e4490544f271aef3e7, type: 3}
   - questions:
     - questionString: "Merhaba! Bu kasl\u0131 halinizi \xE7ok \xE7al\u0131\u015Fmaya
         m\u0131 bor\xE7lusunuz?"
       questionsReaction: 2
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 14bbba89f631d9b4b9e1648e6111dd63, type: 3}
     - questionString: "Merhaba! Sa\xE7lar\u0131n\u0131z 90 derece uzan\u0131yorsa,
         bir g\xFCn bir r\xFCzgar t\xFCnelinde ne olurdu? Acaba sa\xE7 dans\u0131
         m\u0131 yapard\u0131n\u0131z?"
       questionsReaction: 0
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 90f88d6d199fa2a4ba28c3df3ba34b14, type: 3}
