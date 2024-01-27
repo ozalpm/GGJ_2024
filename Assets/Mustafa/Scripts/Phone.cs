@@ -7,6 +7,8 @@ public class Phone : MonoBehaviour
 {
     public static Phone Init;
     public GameObject recordingAnimObject;
+    public RecordTimer recordTimer;
+    public GameObject whitePoint;
     
     private void Awake()
     {
@@ -16,11 +18,15 @@ public class Phone : MonoBehaviour
     public void RecordStart()
     {
         recordingAnimObject.SetActive(true);
+        whitePoint.SetActive(false);
+        recordTimer.TimeReset();
+        recordTimer.TimeUp();
     }
 
     public void RecordEnd()
     {
         recordingAnimObject.SetActive(false);
+        whitePoint.SetActive(true);
     }
 
 }

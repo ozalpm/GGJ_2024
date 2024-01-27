@@ -20,11 +20,11 @@ MonoBehaviour:
   questionsGroups:
   - questions:
     - questionString: osman oyun oynuyor
-      questionsReaction: 2
-    - questionString: "\u015Feyma resim \xE7ekiyo"
-      questionsReaction: 2
-    - questionString: "osman \xE7ok yak\u0131\u015F\u0131kl\u0131"
       questionsReaction: 0
+    - questionString: "\u015Feyma resim \xE7ekiyo"
+      questionsReaction: 1
+    - questionString: "osman \xE7ok yak\u0131\u015F\u0131kl\u0131"
+      questionsReaction: 2
   - questions:
     - questionString: "muste sigara keyfisi yap\u0131yo"
       questionsReaction: 1
