@@ -19,6 +19,7 @@ public class NpcSC : ScriptableObject
         {
             public string questionString;
             public QuestionsReaction questionsReaction;
+            public AudioClip clip;
         }
     }
 }

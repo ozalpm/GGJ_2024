@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 620413fc4c2c43541a5bcb3b1ffac574, type: 3}
+  m_Name: sari sacli koca kafali cocuk
+  m_EditorClassIdentifier: 
+  npcName: 
+  questionsGroups:
+  - questions:
+    - questionString: "Merhaba! B\xFCy\xFCk kafan\u0131z size ne t\xFCr avantajlar
+        sa\u011Fl\u0131yor? Belki 'b\xFCy\xFCk beyin, b\xFCy\xFCk espriler' mi yap\u0131yorsunuz?"
+      questionsReaction: 0
+    - questionString: "Sar\u0131 sa\xE7l\u0131 gen\xE7 adama sordular: 'Ne zaman
+        do\u011Fum g\xFCn\xFCn?' O da cevap verdi: 'Her y\u0131l, ayn\u0131 g\xFCn!"
+      questionsReaction: 2
+    - questionString: "Selam! Sar\u0131 sa\xE7lar\u0131n\u0131z\u0131n arkas\u0131nda
+        ne t\xFCr bir hikaye var? Onlar\u0131 farkl\u0131 k\u0131lan bir \xF6zellik
+        mi var?"
+      questionsReaction: 1
+  - questions:
+    - questionString: "Selam! bu yak\u0131\u015F\u0131kl\u0131l\u0131\u011F\u0131n\u0131z\u0131n
+        arkas\u0131nda ne var? San\u0131r\u0131m sa\xE7 kreminiz \xE7ok iyi!"
+      questionsReaction: 2
+    - questionString: "Merhaba! Sar\u0131 sa\xE7lar\u0131n\u0131z\u0131n s\u0131rr\u0131
+        nedir? Belki bir g\xFCn 'sar\u0131 sa\xE7lar \xE7etesi' kurmay\u0131 d\xFC\u015F\xFCn\xFCyorsunuzdur!"
+      questionsReaction: 0
