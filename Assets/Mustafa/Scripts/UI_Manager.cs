@@ -16,9 +16,18 @@ public class UI_Manager : MonoBehaviour
     public Transform questionContent;
     public Question_UI_Element questionUIElement;
 
+    [Header("General")]
+    public Image popularityImage;
+    
+
     private void Awake()
     {
         Init = this;
+    }
+    
+    public void PopularityChanged(float val, float max)
+    {
+        popularityImage.fillAmount = val / max;
     }
 
     public void OpenInfoPanel(Npc npc)
