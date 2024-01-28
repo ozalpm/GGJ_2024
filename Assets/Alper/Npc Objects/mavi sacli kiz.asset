@@ -23,24 +23,24 @@ MonoBehaviour:
         bu kombinasyonunun ad\u0131 ne, modan\u0131n son s\xFCr\xFCm\xFC m\xFC yoksa
         kaza sonucu mu?"
       questionsReaction: 0
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 1f1551d79c742c046bf18b90b54db219, type: 3}
     - questionString: "Pembe \u015Fortlu k\u0131z! Sana g\xF6re en komik film hangisi?
         Belki benim de g\xFClmek i\xE7in bir film \xF6nerirsin."
       questionsReaction: 1
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: f593d77eb860ed541a89f9b742570f1f, type: 3}
     - questionString: "Merhaba! Bir \u015Feker fabrikas\u0131 ile bir dondurma fabrikas\u0131
         kavga etmi\u015F. Nedenini tahmin edebilir misin? \xC7\xFCnk\xFC \u015Feker
         fabrikas\u0131, dondurma fabrikas\u0131na 'buz gibi espriler' yapm\u0131\u015F!"
       questionsReaction: 2
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 2cdd4fb45ad70fa41a780bfe9755e256, type: 3}
   - questions:
     - questionString: "Merhaba! Bir g\xFCn bir kitapla bir kalem parkta bulu\u015Fmu\u015F.
         Ne konu\u015Fmu\u015F olabilirler? Tabii ki, 'not'lar\u0131n\u0131 payla\u015Fm\u0131\u015F
         olabilirler mi?"
       questionsReaction: 2
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: 2d4dc5f97cb5b9541bd855532720267b, type: 3}
     - questionString: "Mavi sa\xE7l\u0131 k\u0131z, kahverengi ayakkab\u0131lar!
         Acaba mavi sa\xE7lar\u0131n rengini, kahverengi ayakkab\u0131lar\u0131n kalitesine
         mi bor\xE7lusun?"
       questionsReaction: 0
-      clip: {fileID: 0}
+      clip: {fileID: 8300000, guid: d9129d7da0548da459d07731e879cc8b, type: 3}

@@ -37,8 +37,7 @@ MonoBehaviour:
         \xC7\xFCnk\xFC hep tok dola\u015F\u0131r."
       questionsReaction: 0
       clip: {fileID: 8300000, guid: 82c0249a9002e2c4dbb2e0cc32f15854, type: 3}
-    - questionString: "Selam! E\u011Fer bir kedi olmak zorunda kalsayd\u0131n, neden
-        yata\u011F\u0131n alt\u0131na gizlenir ve orada ne yapard\u0131n? Belki de
-        'gizli kahkaha deposu' olurdu!"
+    - questionString: "Kediler neden asla yalan s\xF6ylemezer? \xC7\xFCnk\xFC miyav
+        hakikattir!"
       questionsReaction: 2
       clip: {fileID: 8300000, guid: 80c0785986df5a74aae6bbd87d9e2f2e, type: 3}
