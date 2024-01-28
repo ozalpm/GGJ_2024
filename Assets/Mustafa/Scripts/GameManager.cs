@@ -16,9 +16,8 @@ public class GameManager : MonoBehaviour
         {
             m_popularity = Math.Clamp(value,0, maxPopularity);
             //UI_Manager.Init.PopularityChanged(m_popularity,maxPopularity); (Its remowing)
-            m_popularity = value;
+            
             Phone.Init.popularityText.text = $"%{(int)((m_popularity / maxPopularity)*100)}";
-            Debug.Log((int)((m_popularity / maxPopularity)));
             Debug.Log(m_popularity / maxPopularity);
         }
         get
@@ -92,7 +91,7 @@ public class GameManager : MonoBehaviour
         while (true)
         {
             yield return new WaitForSeconds(1);
-            followerCount += (popularity / 10);
+            followerCount += (popularity);
             bankBalance += (followerCount / 10);
         }
     }
