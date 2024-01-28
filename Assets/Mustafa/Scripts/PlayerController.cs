@@ -7,6 +7,8 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
 
+    public bool isLookingPhone;
+    
 [Header("Movement")]
 public float moveSpeed;
 public float groundDrag;
@@ -34,10 +36,8 @@ public GameObject cameraObject;
 private Camera mainCam;
 [Header("AI NPC")]
 private RaycastHit npcHit;
-
 private Transform oldNpc;
 private Transform newNpc;
-
 private bool isLookingNpc;
 public LayerMask npcLayerMask;
 public float npcRange;
@@ -63,7 +63,7 @@ private void Start()
 
 private void Update()
 {
-    if (isTalking)
+    if (isTalking || isLookingPhone)
     { return; }
     
     // ground check
@@ -135,6 +135,19 @@ private void MovePlayer()
         rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
     
 }
+
+public void OpenPhone()
+{
+    isLookingPhone = true;
+    Cursor.lockState = CursorLockMode.None;
+}
+
+public void ClosePhone()
+{
+    isLookingPhone = false;
+    Cursor.lockState = CursorLockMode.Locked;
+}
+
 private void SpeedControl()
 {
     Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);

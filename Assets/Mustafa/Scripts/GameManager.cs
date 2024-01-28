@@ -6,26 +6,76 @@ using UnityEngine;
 public class GameManager : MonoBehaviour
 {
     public static GameManager Init;
-
-    private float m_popularity;
     public AudioSource source;
+
+    public float maxPopularity;
+    private float m_popularity;
     public float popularity
     {
         set
         {
             m_popularity = Math.Clamp(value,0, maxPopularity);
-            UI_Manager.Init.PopularityChanged(m_popularity,maxPopularity);
+            //UI_Manager.Init.PopularityChanged(m_popularity,maxPopularity); (Its remowing)
+            m_popularity = value;
+            Phone.Init.popularityText.text = $"%{(int)((m_popularity / maxPopularity)*100)}";
+            Debug.Log((int)((m_popularity / maxPopularity)));
+            Debug.Log(m_popularity / maxPopularity);
         }
         get
         {
-            return m_popularity;
+            return (m_popularity / maxPopularity);
+        }
+    }
+
+    private float m_followeCount;
+    public float followerCount
+    {
+        set
+        {
+            m_followeCount = value;
+            Phone.Init.followerCountText.text = ((int)m_followeCount).ToString();
+        }
+        get
+        {
+            return m_followeCount;
         }
     }
     
-    public float maxPopularity;
+    private float m_bankBalance;
+    public float bankBalance
+    {
+        set
+        {
+            m_bankBalance = value;
+            Phone.Init.bankBalanceText.text = ((int)m_bankBalance).ToString();
+        }
+        get
+        {
+            return m_bankBalance;
+        }
+    }
+    
+    private int m_postCount;
+    public int postCount
+    {
+        set
+        {
+            m_postCount = value;
+            Phone.Init.postCountText.text = ((int)m_postCount).ToString();
+        }
+        get
+        {
+            return m_postCount;
+        }
+    }
     private void Awake()
     {
         Init = this;
+    }
+
+    private void Start()
+    {
+        StartCoroutine(nameof(GetFollower));
     }
 
     private void Update()
@@ -35,5 +85,15 @@ public class GameManager : MonoBehaviour
             popularity++;
         }
         
+    }
+
+    IEnumerator GetFollower()
+    {
+        while (true)
+        {
+            yield return new WaitForSeconds(1);
+            followerCount += (popularity / 10);
+            bankBalance += (followerCount / 10);
+        }
     }
 }
