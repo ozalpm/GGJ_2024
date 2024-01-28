@@ -23,6 +23,7 @@ public class Question_UI_Element : MonoBehaviour
         GameManager.Init.source.clip = clip;
         GameManager.Init.source.Play();
         Invoke(nameof(QuestionEnd),clip.length);
+        GameManager.Init.TalkingMusicVolume(true);
     }
 
     private void QuestionEnd()

@@ -7,6 +7,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager Init;
     public AudioSource source;
+    public AudioSource musicSource;
 
     public float maxPopularity;
     private float m_popularity;
@@ -100,6 +101,18 @@ public class GameManager : MonoBehaviour
             yield return new WaitForSeconds(1);
             followerCount += (popularity);
             bankBalance += (followerCount / 10);
+        }
+    }
+
+    public void TalkingMusicVolume(bool isTalikng)
+    {
+        if (isTalikng)
+        {
+            musicSource.volume = 0.5f;
+        }
+        else
+        {
+            musicSource.volume = 1;
         }
     }
 
