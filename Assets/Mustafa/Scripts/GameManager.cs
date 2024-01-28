@@ -41,7 +41,7 @@ public class GameManager : MonoBehaviour
         }
     }
     
-    private float m_bankBalance;
+    public float m_bankBalance;
     public float bankBalance
     {
         set
