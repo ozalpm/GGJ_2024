@@ -33,7 +33,12 @@ public class Phone : MonoBehaviour
     public RecordTimer recordTimer;
     public GameObject whiteCircle;
     public Animator reactionAnimator;
-    
+
+    [Header("Shop")]
+    public TMP_Text shopBalanceText;
+    [Header("Other")] 
+    public Button homeButton;
+    public Button streetButton;
     
     private void Awake()
     {
@@ -109,5 +114,18 @@ public class Phone : MonoBehaviour
         onLooking = false;
         PlayerController.Init.ClosePhone();
     }
+    
+    public void GoHome()
+    {
+        GameManager.Init.GoHome();
+        homeButton.interactable = false;
+        streetButton.interactable = true;
+    }
 
+    public void GoStreet()
+    {
+        GameManager.Init.GoStreet();
+        homeButton.interactable = true;
+        streetButton.interactable = false;
+    }
 }
