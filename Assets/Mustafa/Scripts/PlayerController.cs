@@ -202,6 +202,7 @@ public void MakeTheJoke(QuestionsReaction reaction)
 public void TalkingIsEnd()
 {
     isTalking = false;
+    GameManager.Init.TalkingMusicVolume(isTalking);
     Cursor.lockState = CursorLockMode.Locked;
 }
 
