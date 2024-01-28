@@ -56,6 +56,7 @@ public class Npc : MonoBehaviour
         PlayerController.Init.TalkingIsEnd();
         Phone.Init.RecordEnd(reactedReaction);
         animator.SetTrigger("End Talk");
+        GameManager.Init.postCount++;
     }
 
     public float GetAnimTime(String animName)
