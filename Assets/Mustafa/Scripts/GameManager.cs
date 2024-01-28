@@ -1,3 +1,4 @@
+
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -9,6 +10,8 @@ public class GameManager : MonoBehaviour
     public AudioSource source;
     public AudioSource musicSource;
 
+    public GameObject quitMenu;
+    
     public float maxPopularity;
     private float m_popularity;
     public float popularity
@@ -41,7 +44,7 @@ public class GameManager : MonoBehaviour
         }
     }
     
-    public float m_bankBalance;
+    private float m_bankBalance;
     public float bankBalance
     {
         set
@@ -91,7 +94,19 @@ public class GameManager : MonoBehaviour
         {
             popularity++;
         }
-        
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+        {
+            quitMenu.SetActive(!quitMenu.activeSelf);
+        }
+
+        if (quitMenu.activeSelf)
+        {
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                Application.Quit();
+            }
+        }
     }
 
     IEnumerator GetFollower()
