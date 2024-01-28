@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using CubeEngine;
 
-[CreateAssetMenu(fileName = "Data", menuName = "ScriptableObjects/Scripts", order = 1)]
+[CreateAssetMenu(fileName = "Npc", menuName = "ScriptableObjects/Npc")]
 public class NpcSC : ScriptableObject
 {
     public string npcName;

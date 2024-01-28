@@ -47,6 +47,7 @@ public class GameManager : MonoBehaviour
         {
             m_bankBalance = value;
             Phone.Init.bankBalanceText.text = ((int)m_bankBalance).ToString();
+            Phone.Init.shopBalanceText.text = ((int)m_bankBalance).ToString();
         }
         get
         {
@@ -67,6 +68,10 @@ public class GameManager : MonoBehaviour
             return m_postCount;
         }
     }
+
+    public Transform homePos;
+    public Transform streetPos;
+    public bool isInHome;
     private void Awake()
     {
         Init = this;
@@ -76,6 +81,8 @@ public class GameManager : MonoBehaviour
     {
         StartCoroutine(nameof(GetFollower));
     }
+    
+    
 
     private void Update()
     {
@@ -94,5 +101,17 @@ public class GameManager : MonoBehaviour
             followerCount += (popularity);
             bankBalance += (followerCount / 10);
         }
+    }
+
+    public void GoHome()
+    {
+        PlayerController.Init.transform.position = homePos.position;
+        isInHome = true;
+    }
+
+    public void GoStreet()
+    {
+        PlayerController.Init.transform.position = streetPos.position;
+        isInHome = false;
     }
 }
