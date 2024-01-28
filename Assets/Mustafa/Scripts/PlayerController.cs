@@ -43,10 +43,13 @@ public LayerMask npcLayerMask;
 public float npcRange;
 public Transform phoneObject;
 public Transform phoneRotTransform;
+public Transform phonePosTransform;
 public Transform phoneLostFocusTransform;
 public bool isTalking;
 
 public static PlayerController Init;
+
+public Phone phone;
 
 private void Awake()
 {
@@ -63,9 +66,19 @@ private void Start()
 
 private void Update()
 {
-    if (isTalking || isLookingPhone)
-    { return; }
-    
+    if (isTalking)
+    {
+        phone.phoneAnimator.enabled = false;
+        phoneObject.transform.position = phonePosTransform.position;
+        phoneObject.LookAt(npcHit.transform);
+        return;
+    }
+    else if (isLookingPhone)
+    {
+        return;
+    }
+
+    phone.phoneAnimator.enabled = true;
     // ground check
     grounded = Physics.Raycast(transform.position+Vector3.up, Vector3.down,playerHeight, whatIsGround);
     isLookingNpc=Physics.Raycast(mainCam.transform.position, mainCam.transform.forward,out npcHit,npcRange, npcLayerMask);
